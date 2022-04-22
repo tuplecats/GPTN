@@ -1,0 +1,95 @@
+
+/*
+backgroundColor = #F0F0F0
+foregroundColor = #403F53
+selectionBackgroundColor = #D3E8F8
+selectionForegroundColor = #403F53
+accentColor = #2AA298
+separatorsColor = #D9D9D9
+highlightColor = #CCCCCC
+*/
+
+QToolButton::menu-indicator { image: none; }
+
+QSplitter {
+  spacing: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+
+QSplitter::handle {
+  background-color: #D9D9D9;
+  border: 0px;
+  spacing: 0px;
+  padding: 0px;
+  margin: 0px;
+
+  height: 1px;
+}
+
+QTabWidget {
+    background: #000000;
+}
+
+QTabWidget::tab-bar {
+    border-bottom: 3px solid black;
+    padding: 0px;
+    margin: 0px;
+}
+
+QTabWidget::pane {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background: gray;
+}
+
+GraphicsView {
+    background: #F0F0F0;
+    border: none;
+}
+
+
+QTabBar::tab {
+    /* background: #lightgray; */
+    background: #F0F0F0;
+    border: none;
+    min-width: 8ex;
+    padding: 5px;
+}
+
+QTabBar::tab:hover {
+    /* background: #B4B4B4; */
+    background: #CCCCCC;
+}
+
+QTabBar::tab:selected {
+    /* background: #B4B4B4; */
+    background: #D3E8F8;
+    color: #403F53;
+}
+
+QTabBar::tab:selected {
+    border-bottom: 2px solid #2AA298;
+}
+
+QMenu {
+    padding: 0;
+}
+
+QMenuBar {
+    padding: 0;
+}
+
+QMenuBar::item {
+    padding: 8px 12px;
+    background: transparent;
+}
+
+QMenuBar::item:selected, QMenu::item:selected {
+    background: #D3E8F8;
+    color: #403F53;
+}
+
+QMenu::item {
+    padding: 8px;
+}

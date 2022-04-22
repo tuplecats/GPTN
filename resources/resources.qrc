@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/">
+        <file>images/tools/position.svg</file>
+        <file>images/tools/connect.svg</file>
+        <file>images/tools/move.svg</file>
+        <file>images/tools/transition.svg</file>
+        <file>images/tools/rotation.svg</file>
+        <file>images/tools/remove.svg</file>
+        <file>images/close.png</file>
+        <file>styles/style.qss</file>
+        <file>images/tools/marker.svg</file>
+        <file>images/fullscreen.svg</file>
+        <file>images/minimize.svg</file>
+        <file>images/close.svg</file>
+        <file>images/add.svg</file>
+        <file>images/play.svg</file>
+        <file>images/modeling.svg</file>
+        <file>images/decompose.svg</file>
+    </qresource>
+</RCC>
